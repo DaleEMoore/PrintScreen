@@ -1,0 +1,11 @@
+#Python2
+
+PIL
+
+# http://www.wxpython.org/download.php
+# Download and install correct wxPython platform.
+#wxPython
+#wx
+# I can't get wxPython or wx to pip install.
+
+

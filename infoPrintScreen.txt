@@ -1,0 +1,12 @@
+Overview
+Mike Luter want's a print screen to folder utility.
+
+
+TODO
+Find one in Python
+
+
+
+Logs
+Wednesday 17 December 2014 11:04 AM
+Windows Print screen captures screen then saves file to a folder with no interaction.
