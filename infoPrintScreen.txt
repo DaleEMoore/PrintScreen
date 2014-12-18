@@ -12,6 +12,13 @@ Capture appropriate part of screen.
 Save capture as image in target folder.
 
 
+eMail all the pictures when they get to a certain size (10 MB?)
+
+Review installation procedures
+  http://www.dropboxwiki.com/dropbox-addons/dropbox-screen-grabber
+
+
+
 Logs
 Wednesday 17 December 2014 11:04 AM
 Windows Print screen captures screen then saves file to a folder with no interaction.

@@ -14,8 +14,8 @@ else:
 
 import withWIN32
 
-
 if __name__ == "__main__":
+    withWIN32.main()
     withWIN32.main()
     #main()
 
