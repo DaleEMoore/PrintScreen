@@ -20,7 +20,28 @@ Review installation procedures
 
 
 Logs
-Wednesday 17 December 2014 11:04 AM
+Wednesday 17 December 2014 11:04 AM CST
 Windows Print screen captures screen then saves file to a folder with no interaction.
 
 Find one in Python
+
+Wednesday 17 December 2014 2:31 PM CST
+Hi Mike;
+
+I hope that your email doesn't reject this because I've attached some .py files.
+
+INSTALL
+Find a recent distribution at http://sourceforge.net/projects/pywin32/files/pywin32/, and install.
+
+Find a recent distribution at http://sourceforge.net/projects/pyhook/ or 64-bit at http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook, and install
+
+RUN
+python main.py
+q to Quit
+PrintScreen to get screenshot#.bmp written to the current directory.
+The # becomes 1, then 2, ... If the file exists IT'S OVERWRITTEN.
+AltPrintScreen gets the whole screen, just like PrintScreen.
+
+I hope it works OK for you,
+Dale
+
