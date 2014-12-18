@@ -3,7 +3,7 @@ __author__ = 'dalem'
 
 import win32gui, win32ui, win32con, win32api
 
-iteration = 100
+iteration = 1
 
 # TODO; Capture PrintScreen and AltPrintScreen button pushes.
 # http://stackoverflow.com/questions/17832717/python-auto-save-printscreen
@@ -19,6 +19,9 @@ iteration = 100
 # https://pypi.python.org/pypi/pyHook/1.5.1
 # http://sourceforge.net/p/pyhook/wiki/Main_Page/
 # http://sourceforge.net/p/pyhook/wiki/PyHook_Tutorial/
+# http://sourceforge.net/projects/pyhook/
+# http://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook
+
 
 
 def main():
@@ -35,9 +38,10 @@ def main():
     bmp.CreateCompatibleBitmap(srcdc, width, height)
     memdc.SelectObject(bmp)
     memdc.BitBlt((0, 0), (width, height), srcdc, (left, top), win32con.SRCCOPY)
-    # TODO; figure out the starting file name/number at program startup.
-    # TODO; the file name should increment.
+    # TODO; warn that I'm overwriting existing files.
+    # the file name increments.
     print(str(iteration))
+    # TODO; save as PNG or JPG?
     bmp.SaveBitmapFile(memdc, 'screenshot' + str(iteration) + '.bmp')
     iteration += 1
     #bmp.SaveBitmapFile(memdc, 'screenshot.bmp')
