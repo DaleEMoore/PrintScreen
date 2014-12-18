@@ -3,10 +3,17 @@ Mike Luter want's a print screen to folder utility.
 
 
 TODO
-Find one in Python
+Configure for target folder.
+  Full screen key-chord (PrintScreen.)
+  Active window key-chord (Alt-PrintScreen.)
 
+Interrupt key-press.
+Capture appropriate part of screen.
+Save capture as image in target folder.
 
 
 Logs
 Wednesday 17 December 2014 11:04 AM
 Windows Print screen captures screen then saves file to a folder with no interaction.
+
+Find one in Python

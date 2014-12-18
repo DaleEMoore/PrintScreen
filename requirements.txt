@@ -1,11 +1,21 @@
 #Python2
+# Find a recent distribution at http://sourceforge.net/projects/pywin32/files/pywin32/; download and install it.
+pyWin32
 
-PIL
+# - - - - -
+# pip install pywin32
+# Could not find any downloads that satisfy the requirement pywin32
+# C:\Python27\Scripts>pip install pywin32 --allow-external pywin32 --allow-unverified pywin32
+# DistributionNotFound: No distributions at all found for pywin32
 
+# - - - - -
+# Could not find any downloads that satisfy the requirement PIL
+# PIL
+
+# - - - - -
 # http://www.wxpython.org/download.php
 # Download and install correct wxPython platform.
 #wxPython
 #wx
-# I can't get wxPython or wx to pip install.
-
-
+# Could not find any downloads that satisfy the requirement wx
+# Could not find any downloads that satisfy the requirement wxPython
