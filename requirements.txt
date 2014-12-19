@@ -1,3 +1,4 @@
+# Download and install Python 2 from https://www.python.org/downloads/
 #Python2
 
 # Find a recent distribution at http://sourceforge.net/projects/pywin32/files/pywin32/, and install.
